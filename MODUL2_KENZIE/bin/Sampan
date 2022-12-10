@@ -1,0 +1,12 @@
+public class Sampan {
+
+    public Sampan(int i, int j, int k) {
+    }
+
+    public void informasi() {
+    }
+
+    public void berlayar() {
+    }
+    
+}

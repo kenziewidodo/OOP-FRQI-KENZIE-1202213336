@@ -1,0 +1,24 @@
+public class MainApp {
+    Run|Debug
+    public static void main(String[] args){
+        TransportasiAir transportasi = new TransportasiAir(jumlahKursi: 4,biaya: 20000);
+        Sampan sampan = new Sampan(i: 20,j: 50000,k: 2);
+        Kapal kapal = new Kapal(jumlahKursi: 50,biaya: 100000,mesin: "Mesin Diesel");
+
+        transportasi.informasi();
+        transportasi.berlayar();
+        transportasi.berlayar();
+        System.out.println(" ");
+
+        sampan.informasi();
+        sampan.berlayar();
+        sampan.berlayar();
+        sampan.berlayar();
+        System.out.println("");
+
+        kapal.informasi();
+        kapal.berlayar();
+        kapal.berlayar(20);
+        kapal.berlabuh();
+    }
+}
